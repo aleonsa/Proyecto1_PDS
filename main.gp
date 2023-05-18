@@ -1,7 +1,7 @@
 # GRAFICACION EN GNUPLOT
 
 #set term corel
-set output  "PDS_1.eps"
+
 
 set autoscale
 set multiplot layout 2,2 rowsfirst
@@ -19,7 +19,7 @@ unset ylabel
 unset title
 
 #------------- Graf 2 ----------------
-set title "Sine Func. with noise<5dB added"
+set title "Sine Func. with noise added SNR<5dB"
 # unset label
 set xlabel   "n"
 set ylabel   "x(n)"
